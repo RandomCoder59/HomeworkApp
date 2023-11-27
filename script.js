@@ -1,5 +1,5 @@
 getStringDate = (date) => {
-    let year = date.getFullYear();
+    let year = date.getFullYear().toString();
     let month = date.getMonth() + 1;
     if (month < 10) {
         month = "0" + month;
@@ -8,7 +8,7 @@ getStringDate = (date) => {
     if (day < 10) {
         day = "0" + day;
     }
-    return year + "/" + month + "/" + day
+    return year[2] + year[3] + "/" + month + "/" + day
 }
 
 getReverseStringDate = (date) => {
@@ -48,7 +48,7 @@ createTaskElement = (task, date) => {
     return div;
 }
 
-let url = "https://raw.githubusercontent.com/RandomCoder59/HomeworkJson/main/data.json";
+let url = "https://raw.githubusercontent.com/RandomCoder59/HomeworkApp/main/data.json";
 let data = {};
 let todayDate = getStringDate(new Date());
 let todayList = document.getElementById("today-tasks");
@@ -64,6 +64,7 @@ document.onload = () => {
     }
     todayDate = getStringDate(new Date());
     todayTasks = data[todayDate];
+    console.log(todayDate)
     if (todayTasks && todayTasks.length > 0) {
         for (task of todayTasks) {
             console.log(task);
@@ -116,6 +117,7 @@ fetch(url)
 .then(res => res.json())
 .then(out => {
     data = out;
-    document.onload()
+    console.log(data);
+    document.onload();
 })
 .catch(err => {alert("Unable to load tasks! Kindly refresh!"); document.reload();});
