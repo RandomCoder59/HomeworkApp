@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">Homework X-C</h1>
+        <div class="main" id="today">
+            <h1 class="secondary-title">Today</h1>
+            <hr>
+            <li class="tasks" id="today-tasks">
+                <div class="loader"></div>
+            </li>
+        </div>
+        <div class="main" id="upcoming-or-previous">
+            <div class="options">
+                <div id="radio-group">
+                    <input type="radio" name="mode" id="upcoming" value="upcoming" checked>
+                    <label class="secondary-title" for="upcoming">Upcoming</label>
+                    <input type="radio" name="mode" id="previous" value="previous">
+                    <label class="secondary-title" for="previous">Previous</label>
+                </div>
+                <select name="filter" id="filter">
+                    <option value="All" selected>All</option>
+                    <option value="Science">Science</option>
+                    <option value="Maths">Maths</option>
+                    <option value="SS">SS</option>
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="IT">IT</option>
+                </select>
+            </div>
+            <hr>
+            <li class="tasks" id="upcoming-or-previous-tasks">
+                <div class="loader"></div>
+            </li>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
