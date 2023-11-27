@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Tahoma, sans-serif;
-    font-size: 17.5px;
+    font-size: 1rem;
 }
 
 body {
@@ -19,8 +19,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90vw;
-    height: 85vh;
+    width: 75vw;
+    height: 75vh;
     border: 5px solid rgb(0, 10, 100);
     border-radius: 10px;
     box-shadow: 0px 0px 20px white;
@@ -28,13 +28,14 @@ body {
 
 .main-title {
     margin-bottom: 5px;
-    font-size: 35px;
+    font-size: 3rem;
     text-align: center;
     font-style: italic;
 }
 
 .secondary-title {
-    font-size: 20px;
+    font-style: bold;
+    font-size: 1.5rem;
 }
 
 div.main {
@@ -80,20 +81,13 @@ li {
 }
 
 p.subject {
-    font-size: 25px;
+    font-size: 1.75rem;
     color: rgb(45, 150, 0);
 }
 
 p.content {
+    font-size: 1.25rem;
     color: rgb(27, 1, 141);
-}
-
-div#today {
-
-}
-
-div#upcoming-or-previous {
-
 }
 
 .loader {
