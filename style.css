@@ -43,13 +43,13 @@ div.main {
     flex-direction: column;
     overflow-y: auto;
     overflow-x: auto;
-    gap: 5px;
-    padding: 7.5px;
-    border: 2px solid gold;
+    gap: 2.5px;
+    padding: 3px;
+    border: 1.5px solid gold;
     border-radius: 10px;
-    margin: 5px;
-    width: 100%;
-    flex: 1
+    margin-left: 5px;
+    margin-right: 5px;
+    width: calc(100% - 10px);
 }
 
 li {
@@ -80,8 +80,13 @@ li {
     border: none;
 }
 
+#upcoming-or-previous {
+    margin-top: 10px;
+    flex: 1.5;
+}
+
 p.subject {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: rgb(45, 150, 0);
 }
 
