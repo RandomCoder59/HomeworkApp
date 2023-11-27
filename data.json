@@ -1,1 +1,25 @@
-
+{
+    "23/11/23": [
+        {"subject": "Science", "task": "Complete electron dot structures of ketones, addition reaction of butene."},
+        {"subject": "English", "task": "Writing Skills"}
+    ],
+    "23/11/28": [
+        {"subject": "Maths", "task": "Surface Area and Volume Class Test!"},
+        {"subject": "Science", "task": "NB Submission!"}
+    ],
+    "23/11/29": [
+        {"subject": "Science", "task": "Life Processes Class Test!"}
+    ],
+    "23/12/02": [
+        {"subject": "Science", "task": "Reproduction Class Test!"}
+    ],
+    "23/12/05": [
+        {"subject": "Maths", "task": "Submit Lab File!"}
+    ],
+    "23/12/09": [
+        {"subject": "Science", "task": "Carbon and its Compounds Class Test!"}
+    ],
+    "23/12/21": [
+        {"subject": "SS", "task": "Submit Project File!"}
+    ]
+}
