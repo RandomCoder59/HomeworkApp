@@ -13,14 +13,29 @@
         {"subject": "English", "task": "English NB + Portfolio submission!"},
         {"subject": "Maths", "task": "Maths all NB submission!"}
     ],
+    "23/12/01": [
+        {"subject": "Maths", "task": "AP Class Test"}
+    ],
     "23/12/02": [
         {"subject": "Science", "task": "Reproduction Class Test!"}
+    ],
+    "23/12/04": [
+        {"subject": "Maths", "task": "Statistics, Polynomials, Real Numbers, Coordinate Geometry, Probability Class Test"}
     ],
     "23/12/05": [
         {"subject": "Maths", "task": "Submit Lab File!"}
     ],
+    "23/12/07": [
+        {"subject": "Maths", "task": "Linear equations and Quadratic equations Class Test"}
+    ],
     "23/12/09": [
         {"subject": "Science", "task": "Carbon and its Compounds Class Test!"}
+    ],
+    "23/12/11": [
+        {"subject": "Maths", "task": "Trigonometric Ratios and Height and Distance Class Test"}
+    ],
+    "23/12/11": [
+        {"subject": "Maths", "task": "Circles and Area related to Circles Class Test"}
     ],
     "23/12/21": [
         {"subject": "SS", "task": "Submit Project File!"}
