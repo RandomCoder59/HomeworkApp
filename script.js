@@ -11,17 +11,8 @@ getStringDate = (date) => {
     return year[2] + year[3] + "/" + month + "/" + day
 }
 
-getReverseStringDate = (date) => {
-    let year = date.getFullYear();
-    let month = date.getMonth() + 1;
-    if (month < 10) {
-        month = "0" + month;
-    }
-    let day = date.getDate();
-    if (day < 10) {
-        day = "0" + day;
-    }
-    return year + "/" + month + "/" + day
+reverseStringDate = (date) => {
+    return date[6] + date[7] + "/" + date[3] + date[4] + "/" + date[0] + date[1]
 }
 
 createTask = (subject, task) => {
@@ -40,7 +31,7 @@ createTaskElement = (task, date) => {
     if (date) {
         dateElement = document.createElement("p");
         dateElement.className = "date"
-        dateElement.innerText = date + " - ";
+        dateElement.innerText = reverseStringDate(date) + " - ";
         div.appendChild(dateElement);
     }
     div.appendChild(p1);
