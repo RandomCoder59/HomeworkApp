@@ -61,6 +61,10 @@ li {
     flex-direction: column;
 }
 
+li#upcoming-or-previous-tasks {
+    flex-direction: column-reverse;
+}
+
 .task {
     display: flex;
     flex-direction: row;
