@@ -55,10 +55,8 @@ document.onload = () => {
     }
     todayDate = getStringDate(new Date());
     todayTasks = data[todayDate];
-    console.log(todayDate)
     if (todayTasks && todayTasks.length > 0) {
         for (task of todayTasks) {
-            console.log(task);
             todayList.appendChild(createTaskElement(task));
         }
     } else {
@@ -108,7 +106,6 @@ fetch(url)
 .then(res => res.json())
 .then(out => {
     data = out;
-    console.log(data);
     document.onload();
 })
 .catch(err => {
