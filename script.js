@@ -111,4 +111,7 @@ fetch(url)
     console.log(data);
     document.onload();
 })
-.catch(err => alert("Unable to load tasks! Kindly refresh!"));
+.catch(err => {
+    console.log(err);
+    alert("Unable to load tasks! Kindly refresh!");
+});
