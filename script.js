@@ -20,13 +20,13 @@ createTask = (subject, task) => {
 }
 
 createTaskElement = (task, date) => {
-    div = document.createElement("div");
+    div = document.createElement("li");
     div.className = "task";
     p1 = document.createElement("p");
     p1.className = "subject"
-    p2 = document.createElement("p");
+    p2 = document.createElement("span");
     p2.className = "content"
-    p1.innerText = task.subject + ":";
+    p1.innerText = task.subject + ": ";
     p2.innerText = task.task;
     if (date) {
         dateElement = document.createElement("p");
@@ -34,8 +34,8 @@ createTaskElement = (task, date) => {
         dateElement.innerText = reverseStringDate(date) + " - ";
         div.appendChild(dateElement);
     }
+    p1.appendChild(p2);
     div.appendChild(p1);
-    div.appendChild(p2);
     return div;
 }
 
