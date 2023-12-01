@@ -10,17 +10,18 @@
     ],
     "23/11/29": [
         {"subject": "Science", "task": "Life Processes Class Test!"},
-        {"subject": "English", "task": "English NB + Portfolio submission!"},
         {"subject": "Maths", "task": "Maths all NB submission!"}
     ],
     "23/11/30": [
         {"subject": "Science", "task": "Write short notes of Sexual Reproduction + STDs and diagrams!"}
     ],
     "23/12/01": [
-        {"subject": "Maths", "task": "AP Class Test"}
+        {"subject": "Maths", "task": "AP Class Test"},
+        {"subject": "SS", "task": "Bring History Textbook"}
     ],
     "23/12/02": [
-        {"subject": "Science", "task": "Reproduction Class Test!"}
+        {"subject": "Science", "task": "Reproduction Class Test!"},
+        {"subject": "English", "task": "English NB + Portfolio submission!"}
     ],
     "23/12/04": [
         {"subject": "Maths", "task": "Statistics, Polynomials, Real Numbers, Coordinate Geometry, Probability Class Test"}
