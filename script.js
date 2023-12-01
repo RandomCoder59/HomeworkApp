@@ -70,12 +70,18 @@ previousButton.onchange = () => {
         return;
     }
     upcomingList.innerHTML = "";
+    let dates = [];
     for (date of Object.keys(data)) {
         if (date < todayDate) {
-            for (task of data[date]) {
-                if (fitlerSelect.value == "All" || fitlerSelect.value == task.subject) {
-                    upcomingList.appendChild(createTaskElement(task, date));
-                }
+            dates.push(date);
+        }
+    }
+    dates.sort();
+    dates.reverse();
+    for (date of dates) {
+        for (task of data[date]) {
+            if (fitlerSelect.value == "All" || fitlerSelect.value == task.subject) {
+                upcomingList.appendChild(createTaskElement(task, date));
             }
         }
     }
@@ -86,12 +92,17 @@ upcomingButton.onchange = () => {
         return;
     }
     upcomingList.innerHTML = "";
+    let dates = [];
     for (date of Object.keys(data)) {
         if (date > todayDate) {
-            for (task of data[date]) {
-                if (fitlerSelect.value == "All" || fitlerSelect.value == task.subject) {
-                    upcomingList.appendChild(createTaskElement(task, date));
-                }
+            dates.push(date);
+        }
+    }
+    dates.sort();
+    for (date of dates) {
+        for (task of data[date]) {
+            if (fitlerSelect.value == "All" || fitlerSelect.value == task.subject) {
+                upcomingList.appendChild(createTaskElement(task, date));
             }
         }
     }
