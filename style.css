@@ -87,19 +87,16 @@ li.task {
     align-items: center;
 }
 
-#radio-group {
+div.buttons {
     display: flex;
     gap: 10px;
 }
 
-#radio-group input[type="radio"] {
-    display: none;
-}
-
-#radio-group label {
+#upcoming, #previous {
     display: inline-block;
     padding: 8px 12px;
     font-size: 1rem;
+    font-weight: bold;
     border: 1px solid #555;
     border-radius: 5px;
     cursor: pointer;
@@ -108,7 +105,7 @@ li.task {
     transition: background-color 0.3s, color 0.3s;
 }
 
-#radio-group input[type="radio"]:checked + label {
+#upcoming.checked, #previous.checked {
     background-color: #dcdcdc;
     color: #000;
 }
