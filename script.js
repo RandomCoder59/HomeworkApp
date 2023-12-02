@@ -50,36 +50,35 @@ let fitlerSelect = document.getElementById("filter")
 
 document.onload = () => {
     let loaders = document.querySelectorAll(".loader");
-    for (loader of loaders) {
+    for (let loader of loaders) {
         loader.remove();
     }
     todayDate = getStringDate(new Date());
     todayTasks = data[todayDate];
     if (todayTasks && todayTasks.length > 0) {
-        for (task of todayTasks) {
+        for (let task of todayTasks) {
             todayList.appendChild(createTaskElement(task));
         }
     } else {
         todayList.appendChild(createTaskElement(createTask("General", "Check upcoming tasks")))
     }
-    upcomingButton.onchange();
+    upcomingButton.click();
 }
 
-previousButton.onchange = () => {
-    if (!previousButton.checked) {
-        return;
-    }
+previousButton.onclick = () => {
+    previousButton.className = "checked";
+    upcomingButton.className = "";
     upcomingList.innerHTML = "";
     let dates = [];
-    for (date of Object.keys(data)) {
+    for (let date of Object.keys(data)) {
         if (date < todayDate) {
             dates.push(date);
         }
     }
     dates.sort();
     dates.reverse();
-    for (date of dates) {
-        for (task of data[date]) {
+    for (let date of dates) {
+        for (let task of data[date]) {
             if (fitlerSelect.value == "All" || fitlerSelect.value == task.subject) {
                 upcomingList.appendChild(createTaskElement(task, date));
             }
@@ -87,20 +86,19 @@ previousButton.onchange = () => {
     }
 }
 
-upcomingButton.onchange = () => {
-    if (!upcomingButton.checked) {
-        return;
-    }
+upcomingButton.onclick = () => {
+    upcomingButton.className = "checked";
+    previousButton.className = "";
     upcomingList.innerHTML = "";
     let dates = [];
-    for (date of Object.keys(data)) {
+    for (let date of Object.keys(data)) {
         if (date > todayDate) {
             dates.push(date);
         }
     }
     dates.sort();
-    for (date of dates) {
-        for (task of data[date]) {
+    for (let date of dates) {
+        for (let task of data[date]) {
             if (fitlerSelect.value == "All" || fitlerSelect.value == task.subject) {
                 upcomingList.appendChild(createTaskElement(task, date));
             }
@@ -109,8 +107,11 @@ upcomingButton.onchange = () => {
 }
 
 fitlerSelect.onchange = () => {
-    previousButton.onchange();
-    upcomingButton.onchange();
+    if (upcomingButton.className == "checked") {
+        upcomingButton.click()
+    } else {
+        previousButton.click()
+    }
 }
 
 fetch(url)
