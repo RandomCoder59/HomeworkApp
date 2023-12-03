@@ -31,7 +31,8 @@
         {"subject": "Maths", "task": "Submit Lab File!"}
     ],
     "23/12/07": [
-        {"subject": "Maths", "task": "Linear equations and Quadratic equations Class Test"}
+        {"subject": "Maths", "task": "Linear equations and Quadratic equations Class Test"},
+        {"subject": "IT", "task": "Collect Data for IT project!"}
     ],
     "23/12/09": [
         {"subject": "Science", "task": "Carbon and its Compounds Class Test!"}
