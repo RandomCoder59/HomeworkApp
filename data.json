@@ -35,6 +35,9 @@
         {"subject": "Maths", "task": "Linear equations and Quadratic equations Class Test"},
         {"subject": "IT", "task": "Collect Data for IT project!"}
     ],
+    "23/12/09": [
+        {"subject": "Science", "task": "Carbon and its Compounds Class Test!"}
+    ],
     "23/12/11": [
         {"subject": "Maths", "task": "Trigonometric Ratios and Height and Distance Class Test"}
     ],
@@ -57,6 +60,6 @@
         {"subject": "Science", "task": "Light and Human Eye Class Test!"}
     ],
     "23/12/23": [
-        {"subject": "Science", "task": "Carbon and its Compounds Class Test!"}
+        {"subject": "Science", "task": "Control and Coordination Class Test!"}
     ]
 }
