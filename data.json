@@ -28,15 +28,14 @@
         {"subject": "Maths", "task": "Statistics, Polynomials, Real Numbers, Coordinate Geometry, Probability Class Test"},
         {"subject": "Science", "task": "Complete NCERT Questions of Carbon and its Compounds"}
     ],
-    "23/12/05": [
-        {"subject": "Maths", "task": "Submit Lab File!"}
-    ],
     "23/12/07": [
+        {"subject": "Maths", "task": "Submit Lab File!"},
         {"subject": "Maths", "task": "Linear equations and Quadratic equations Class Test"},
         {"subject": "IT", "task": "Collect Data for IT project!"}
     ],
     "23/12/09": [
-        {"subject": "Science", "task": "Carbon and its Compounds Class Test!"}
+        {"subject": "Science", "task": "Carbon and its Compounds Class Test!"},
+        {"subject": "Science", "task": "Journal submission!"}
     ],
     "23/12/11": [
         {"subject": "Maths", "task": "Trigonometric Ratios and Height and Distance Class Test"}
