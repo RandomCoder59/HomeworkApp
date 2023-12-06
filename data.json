@@ -29,7 +29,6 @@
         {"subject": "Science", "task": "Complete NCERT Questions of Carbon and its Compounds"}
     ],
     "23/12/07": [
-        {"subject": "Maths", "task": "Submit Lab File!"},
         {"subject": "Maths", "task": "Linear equations and Quadratic equations Class Test"},
         {"subject": "IT", "task": "Collect Data for IT project!"}
     ],
@@ -38,7 +37,9 @@
         {"subject": "Science", "task": "Journal submission!"}
     ],
     "23/12/11": [
-        {"subject": "Maths", "task": "Trigonometric Ratios and Height and Distance Class Test"}
+        {"subject": "Maths", "task": "Trigonometric Ratios and Height and Distance Class Test"},
+        {"subject": "Maths", "task": "Math Lab File submission!"},
+        {"subject": "IT", "task": "Journal and Project submission!"}
     ],
     "23/12/13": [
         {"subject": "Science", "task": "Chapter 1, 2 and 3 Class Test!"}
@@ -50,15 +51,12 @@
         {"subject": "Science", "task": "Electricity and Magnetism Class Test!"}
     ],
     "23/12/19": [
-        {"subject": "Science", "task": "Environment and Heredity Class Test!"}
+        {"subject": "Science", "task": "Environment, Heredity and Control and Coordination Class Test!"}
     ],
     "23/12/21": [
         {"subject": "SS", "task": "Submit Project File!"}
     ],
     "23/12/22": [
         {"subject": "Science", "task": "Light and Human Eye Class Test!"}
-    ],
-    "23/12/23": [
-        {"subject": "Science", "task": "Control and Coordination Class Test!"}
     ]
 }
