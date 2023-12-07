@@ -30,16 +30,17 @@
     ],
     "23/12/07": [
         {"subject": "Maths", "task": "Linear equations and Quadratic equations Class Test"},
-        {"subject": "IT", "task": "Collect Data for IT project!"}
+        {"subject": "IT", "task": "Collect Data for IT project!"},
+        {"subject": "Science", "task": "Electron Dot Structures of functional groups"}
     ],
     "23/12/09": [
-        {"subject": "Science", "task": "Carbon and its Compounds Class Test!"},
-        {"subject": "Science", "task": "Journal submission!"}
+        {"subject": "Science", "task": "Carbon and its Compounds Class Test!"}
     ],
     "23/12/11": [
         {"subject": "Maths", "task": "Trigonometric Ratios and Height and Distance Class Test"},
         {"subject": "Maths", "task": "Math Lab File submission!"},
-        {"subject": "IT", "task": "Journal and Project submission!"}
+        {"subject": "IT", "task": "Journal and Project submission!"},
+        {"subject": "Science", "task": "Journal submission!"}
     ],
     "23/12/13": [
         {"subject": "Science", "task": "Chapter 1, 2 and 3 Class Test!"}
