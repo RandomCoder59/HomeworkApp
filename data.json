@@ -39,8 +39,11 @@
     "23/12/11": [
         {"subject": "Maths", "task": "Trigonometric Ratios and Height and Distance Class Test"},
         {"subject": "Maths", "task": "Math Lab File submission!"},
-        {"subject": "IT", "task": "Journal and Project submission!"},
+        {"subject": "IT", "task": "Journal, Project file and Statistics Project submission!"},
         {"subject": "Science", "task": "Journal submission!"}
+    ],
+    "23/12/12": [
+        {"subject": "English", "task": "Poems Class Test!"}
     ],
     "23/12/13": [
         {"subject": "Science", "task": "Chapter 1, 2 and 3 Class Test!"}
@@ -48,8 +51,14 @@
     "23/12/14": [
         {"subject": "Maths", "task": "Circles and Area related to Circles Class Test"}
     ],
+    "23/12/15": [
+        {"subject": "English", "task": "Prose Class Test!"}
+    ],
     "23/12/16": [
         {"subject": "Science", "task": "Electricity and Magnetism Class Test!"}
+    ],
+    "23/12/18": [
+        {"subject": "English", "task": "Grammar and Writing Skills Class Test!"}
     ],
     "23/12/19": [
         {"subject": "Science", "task": "Environment, Heredity and Control and Coordination Class Test!"}
