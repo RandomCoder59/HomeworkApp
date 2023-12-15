@@ -55,7 +55,8 @@
         {"subject": "SS", "task": "PS - 6 and 7 Class Test"}
     ],
     "23/12/15": [
-        {"subject": "English", "task": "Prose Class Test"}
+        {"subject": "English", "task": "Prose Class Test"},
+        {"subject": "English", "task": "Bring colour sheets for completing English MA"}
     ],
     "23/12/16": [
         {"subject": "Science", "task": "Electricity and Magnetism Class Test"},
