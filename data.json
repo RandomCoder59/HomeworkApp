@@ -65,13 +65,15 @@
     "23/12/18": [
         {"subject": "English", "task": "Grammar and Writing Skills Class Test"},
         {"subject": "Hindi", "task": "Bring MA material to school!"},
-        {"subject": "SS", "task": "History - 5 and Eco - 4 Class Test"},
         {"subject": "Hindi", "task": "Aatmatran MCQ Test"}
     ],
     "23/12/19": [
+        {"subject": "SS", "task": "Bring MA material to school!"},
+        {"subject": "SS", "task": "History - 5 and Eco - 4 Class Test"},
         {"subject": "Science", "task": "Environment, Heredity and Control and Coordination Class Test"}
     ],
     "23/12/20": [
+        {"subject": "Maths", "task": "Bring MA material to school!"},
         {"subject": "SS", "task": "Geo - 5, 6 Class Test"}
     ],
     "23/12/21": [
