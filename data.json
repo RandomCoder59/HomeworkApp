@@ -73,15 +73,17 @@
         {"subject": "Science", "task": "Environment, Heredity and Control and Coordination Class Test"}
     ],
     "23/12/20": [
-        {"subject": "Maths", "task": "Bring MA material to school!"},
-        {"subject": "SS", "task": "Geo - 5, 6 Class Test"}
+        {"subject": "Maths", "task": "Bring MA material to school!"}
     ],
     "23/12/21": [
-        {"subject": "SS", "task": "Submit Project File"},
-        {"subject": "SS", "task": "History - 3 and Geo - 4"}
+        {"subject": "SS", "task": "Submit Project File"}
     ],
     "23/12/22": [
         {"subject": "Science", "task": "Light and Human Eye Class Test"},
-        {"subject": "SS", "task": "Case based questions of History - 4 Test"}
+        {"subject": "SS", "task": "Case based questions of History - 4 Test"},
+        {"subject": "SS", "task": "Geo - 4, 5, 6 MCQ Test"}
+    ],
+    "23/12/23": [
+        {"subject": "SS", "task": "History - 3, 4 Case based questiosn Test"}
     ]
 }
