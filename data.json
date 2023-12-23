@@ -100,5 +100,23 @@
     ],
     "24/01/13": [
         {"subject": "Maths", "task": "Preboard exam!!"}
+    ],
+    "24/02/21": [
+        {"subject": "Hindi", "task": "Board exam!!"}
+    ],
+    "24/01/26": [
+        {"subject": "English", "task": "Board exam!!"}
+    ],
+    "24/03/02": [
+        {"subject": "Science", "task": "Board exam!!"}
+    ],
+    "24/03/07": [
+        {"subject": "SS", "task": "Board exam!!"}
+    ],
+    "24/03/11": [
+        {"subject": "Maths", "task": "Board exam!!"}
+    ],
+    "24/03/13": [
+        {"subject": "IT", "task": "Board exam!!"}
     ]
 }
